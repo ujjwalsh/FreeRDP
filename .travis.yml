@@ -9,6 +9,8 @@ compiler:
   - gcc
 
 matrix:
+  arch:
+    - ppc64le
   include:
     - os: linux
       compiler: gcc
